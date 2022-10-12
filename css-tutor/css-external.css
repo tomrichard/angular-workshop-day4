@@ -1,0 +1,18 @@
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-container .table {
+    border-collapse: collapse;
+}
+
+.table-container .table th {
+    padding: 4px 8px;
+    font-weight: bold;
+}
+
+.table-container .table th,
+.table-container .table td {
+    border: 1px solid red;
+}
